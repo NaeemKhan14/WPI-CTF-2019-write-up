@@ -10,7 +10,7 @@ This is a write up from my participation in WPI's CTF competition. [I got placed
 
 We were given the above picture to decode the message from. I converted all emojis into unicode first, which resulted in a string like this:
 
-    U+1F603 U+1F601 U+1F615
+    U+1F603 U+1F601 U+1F615 .........
     
 I noticed that all of them have one thing in common: **U+1F6**, which leads to the conclusion we only need the last two bits of the code, which resulted into the following series of numbers:
 
