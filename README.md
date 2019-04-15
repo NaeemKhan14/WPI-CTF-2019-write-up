@@ -1,4 +1,4 @@
-This is a write up from my participation in WPI's CTF competition. I got placed at 42nd place out of 586 teams with a score of 981. The event had a number of challenges, and I will be explaining the ones that I managed to clear in this document.
+This is a write up from my participation in WPI's CTF competition. [I got placed at 42nd place out of 586 teams with a score of 981](https://ctf.wpictf.xyz/team). The event had a number of challenges, and I will be explaining the ones that I managed to clear in this document.
 
 # Cryptography
 **1. zoomercrypt**
@@ -61,6 +61,8 @@ For this challenge, we were given an execuable file to run. I opened the file in
     
 # Recon
 **1. Chrip**
+
+![Chirp Recon](https://github.com/NaeemKhan14/WPI-CTF-2019-write-up/blob/master/chirp.png)
 
 Perhaps the easiest challenge of them all. We were given a picture of a blue bird, with a watermark "Seige" written on it. That hinted that the answer is somewhere on twitter. Upon searching for Seige Technologies's (which were the sponsor of this event) twitter page, I found the key in their tweet.
 
