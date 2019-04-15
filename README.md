@@ -6,6 +6,8 @@ This is a write up from my participation in WPI's CTF competition. I got placed 
 ###### Descrption
 > My daughter is using a coded language to hide her activities from us!!!! Please, help us find out what she is hiding!
 
+![Zoomer Crypt](https://github.com/NaeemKhan14/WPI-CTF-2019-write-up/blob/master/zoomercrypt.jpg)
+
 We were given the above picture to decode the message from. I converted all emojis into unicode first, which resulted in a string like this:
 
     U+1F603 U+1F601 U+1F615
@@ -37,6 +39,7 @@ Which now made a lot of sense. So after changing the WPC to WPI (which is the fl
 
 We were given a compiled python file which the text was encrpted with. I used **uncompyle6** python decrypter to decompile the file to get access to its source code. That resulted in the following code:
 
+> https://github.com/NaeemKhan14/WPI-CTF-2019-write-up/blob/master/jocipher_Decompiled
     
 I modified the code slightly by adding the following code in the condition at line #133, to test a number of range for the correct seed to decrypt with:
 
