@@ -1,4 +1,4 @@
-This is a write up from my participation in WPI's CTF competition. [I got placed at 42nd place out of 586 teams with a score of 981](https://ctf.wpictf.xyz/team). The event had a number of challenges, and I will be explaining the ones that I managed to clear in this document.
+This is a write up from my participation in WPI's CTF competition. [I got placed at 42nd place out of 586 teams with a score of 981](https://ctftime.org/team/78226). The event had a number of challenges, and I will be explaining the ones that I managed to clear in this document.
 
 # Linux
 **1. suckmore-shell**
